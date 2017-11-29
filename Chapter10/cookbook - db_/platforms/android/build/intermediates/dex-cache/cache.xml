@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_f0a4a2696bab51ca12b54533b87a12f25eee5926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.2.2_d58abec4297b12003d4f747fd28a364754ab3bb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_60f7fb942986a36828db0441cf88050ec7e4ef00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_0e4645e7122c8968499b0823d3919adb04834afe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-11.2.2_9ebe6c4a75ac911a1689948952a156455cb97cd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.2.2_df07adfc1832a7f31ccebfd6ccd6dafb98bc47c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_1f6998a7c41d8d4df03a4c0779c87d3f60030e9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-26.0.0-alpha1_c30adb8bbad1102cebbc99014b0e7a99603e2c7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-26.0.0-alpha1_b2d57f5ed5975f278cdad3957b471a251f925df7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-26.0.0-alpha1_2945cef00bc8093e04f2d881d717ab58aa68ffd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_b55adbb5a7d18b91eb46bd279f929afaf6853160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-26.0.0-alpha1_cc027b7b6bc2d453cb849808a439d177fd11165d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.2.2_2c2899c2c6ff433724acbc83ae28291204b3adc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fef1e7957f1df7c5ff164c5fb2ae709bf3d942ee">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-auth-11.2.2_010a6d3c7a71f4f543af51a7864a95a98a1827d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="671e3171a25ffd26d01b9d7b548ae50374a9e303">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-auth-base-11.2.2_b3395384adff42b49657fe17509c5c43dc5b5b7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.2.2_bc10a53f2d9f3d4fb1171d117662420371acf269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="35d8afc7b357b4ece9b82c387361cf9ac97097ce">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-config-11.2.2_73f57aaaa2c982be23ab3f3e275190cf9e756dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-26.0.0-alpha1_49e7224e8295a93f184e9a6a7adea2546592e9ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-26.0.0-alpha1_91019976a3eb1564c1f719ee402b86d67ce14947.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_129671146c30f0b2bef4bf243d5e2156ad06fa41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/cookbook/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_a8083e67a32b14209ae4be982065c6f817837c44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-transition-26.0.0-alpha1_4f75c4e02cfb0dd8d5cf6fb79c46a2eb5fe08e8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-26.0.0-alpha1_9436df3dcfea77d6c97d0786a10c2a07bd0e69a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.2.2_9bf5900575649bd7e2368b981c94f885cb6acf52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.2.2_e5b1bd34158b4073f126300ffbe09d748ea6b24a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8f8c58325f0b364e30dca132b248ddabc71415e">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-auth-api-phone-11.2.2_9f7b18803e87ec2fa85a7762712486ee7d6aec29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8683ee17f4c704b94e2977a8ccdcb14bbe43cff2">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-appinvite-11.2.2_c011879065491d6d49ec8c37b5fdabe798b003e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.2.2_e3930d46e57800033c1e4daff0c5dad224acdfde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/cookbook/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb6078500d1af5e7b663871706674405c57292a3">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/cookbook-runtime-unspecified_e01e5485bd67bd541a80deb0904820a1d953ab23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-26.0.0-alpha1_0a59293c061b6f56aa1865bfd19cf871c68a492e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-connection-11.2.2_f1da60dc02f7635847f5edb48edcff6146b25a60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.2.2_889d39532ff1f6783d1e6803d1b1ba8597157951.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_b43a96619e7745c02f6268592139e644acc5d4ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_22e0ed8ad0825c139e5a3949fe31742987990531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-dynamic-links/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d60187a85947fe2a5b52339f5ace13d53ed17509">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-dynamic-links-11.2.2_5cfd38cfa708e5f18080fb47bc856a5dd4acc911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-26.0.0-alpha1_894502b49141fa96972ecfccc532ddd628c383f2.jar" />
+    </item>
+
+</items>

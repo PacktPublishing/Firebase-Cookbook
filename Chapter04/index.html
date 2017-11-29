@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        img {
+            max-width: 500px;
+            max-height: 220px
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Firebase Cookbook</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">One more separated link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="text-center">
+                <img src="img/firebase.png">
+                <p style="margin-top:-50px">Loging using your favorite method</p>
+            </div>
+            <br>
+            <form class="form-inline text-center">
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                </div>
+                <button id="login" type="submit" class="btn btn-default">Sign in</button>
+            </form>
+            <br>
+            <br>
+            <div class="text-center">Or</div>
+            <br>
+            <div class="text-center">
+                <a class="btn btn-social btn-lg btn-github" style="width: 260px">
+                    <span class="fa fa-snapchat-ghost"></span> Sign in anonymously
+                </a>
+                <br>
+                <br>
+                <a class="btn btn-social btn-lg btn-twitter" style="width: 260px" id="twitterLogin">
+                    <span class="fa fa-twitter"></span> Sign in with Twitter
+                </a>
+                <br>
+                <br>
+                <a class="btn btn-social btn-lg btn-google" style="width: 260px" id="googleLogin">
+                    <span class="fa fa-google"></span> Sign in with Google
+                </a>
+                <br>
+                <br>
+                <a class="btn btn-social btn-lg btn-facebook" style="width: 260px" id="fcbLogin">
+                    <span class="fa fa-facebook"></span> Sign in with Facebook
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB3amU4g4smm77PGOX39meBm71rW2G2vK8",
+            authDomain: "fir-cookbook.firebaseapp.com",
+            databaseURL: "https://fir-cookbook.firebaseio.com",
+            projectId: "fir-cookbook",
+            storageBucket: "fir-cookbook.appspot.com",
+            messagingSenderId: "329935171550"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script>
+        //Getting the Email/Password and Signin button from the the inputs above. 
+        let email = document.getElementById('email').value;
+        let password = document.getElementById('password').value;
+        let signIn = document.getElementById('login');
+        //Listening on thesignIn button click.
+        signIn.addEventListener('click', (ev) => {
+            firebase.auth().signInWithEmailAndPassword(email, password)
+                .then(user => {
+                    //Handling the successful authentication. 
+                }).catch(function (error) {
+                    //Handling the error showcasing. });
+                }, false);
+        });
+
+        let facebookLogin = document.getElementById('fcbLogin');
+        facebookLogin.addEventListener('click', () => {
+            console.log("will connect using facebook");
+            // 1. Get a FacebookAuthProvider instance.
+            let facebookProvider = new firebase.auth.FacebookAuthProvider();
+
+            //2. Add some permissions & scopes (optional)
+            facebookProvider.addScope('public_profile');
+
+            //3. Make the call 
+            firebase.auth().signInWithPopup(facebookProvider).then(function (result) {
+                var user = result.user;
+                console.log(result);
+
+            }).catch(function (error) {
+                //TODO:  Handle Errors here.
+            });
+        }, false);
+
+        let twitterLogin = document.getElementById('twitterLogin');
+        twitterLogin.addEventListener('click', () => {
+            //1. Get a TwitterAuthProvider instance.
+            var twitterProvider = new firebase.auth.TwitterAuthProvider();
+
+            firebase.auth().signInWithPopup(twitterProvider).then(function (result) {
+                console.log(result);
+                var user = result.profile;
+            }).catch(function (error) {
+                //TODO:  Handle Errors here.
+            });
+        });
+
+        let googleLogin = document.getElementById('googleLogin');
+        googleLogin.addEventListener('click', () => {
+            //1. Get a TwitterAuthProvider instance.
+            var googleProvider = new firebase.auth.GoogleAuthProvider();
+
+            firebase.auth().signInWithPopup(googleProvider).then(function (result) {
+                console.log(result);
+                var user = result.user;
+            }).catch(function (error) {
+                //TODO:  Handle Errors here.
+                console.log(error);
+            });
+        });
+    </script>
+</body>
+
+</html>

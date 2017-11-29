@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/icon.png",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/logo.png",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/background.png",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/res/drawable-hdpi/background.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="Firebase CookBook" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <StackLayout class="p-20">
+        <TextField text="{{ newIdea }}" hint="Add here your shiny idea"/>
+        <Button text="Add new idea to my bucket" tap="{{ addToMyBucket }}" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>

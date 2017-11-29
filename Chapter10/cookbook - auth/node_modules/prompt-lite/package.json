@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "prompt-lite@~0.1.0",
+        "scope": null,
+        "escapedName": "prompt-lite",
+        "name": "prompt-lite",
+        "rawSpec": "~0.1.0",
+        "spec": ">=0.1.0 <0.2.0",
+        "type": "range"
+      },
+      "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/node_modules/nativescript-plugin-firebase"
+    ]
+  ],
+  "_from": "prompt-lite@>=0.1.0 <0.2.0",
+  "_id": "prompt-lite@0.1.1",
+  "_inCache": true,
+  "_location": "/prompt-lite",
+  "_npmUser": {
+    "name": "jesusabdullah",
+    "email": "josh.holbrook@gmail.com"
+  },
+  "_npmVersion": "1.2.11",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "prompt-lite@~0.1.0",
+    "scope": null,
+    "escapedName": "prompt-lite",
+    "name": "prompt-lite",
+    "rawSpec": "~0.1.0",
+    "spec": ">=0.1.0 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/nativescript-plugin-firebase"
+  ],
+  "_resolved": "https://registry.npmjs.org/prompt-lite/-/prompt-lite-0.1.1.tgz",
+  "_shasum": "fa848f81ba139e7d3f321773ddafc93d32857c75",
+  "_shrinkwrap": null,
+  "_spec": "prompt-lite@~0.1.0",
+  "_where": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/node_modules/nativescript-plugin-firebase",
+  "author": {
+    "name": "Joshua Holbrook"
+  },
+  "bugs": {
+    "url": "https://github.com/jesusabdullah/prompt-lite/issues"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "colors": "0.6.x",
+    "read": "1.0.x",
+    "revalidator": "0.1.x"
+  },
+  "description": "A simpler command-line prompt for node.js",
+  "devDependencies": {
+    "vows": "0.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "fa848f81ba139e7d3f321773ddafc93d32857c75",
+    "tarball": "https://registry.npmjs.org/prompt-lite/-/prompt-lite-0.1.1.tgz"
+  },
+  "engines": {
+    "node": ">= 0.6.6"
+  },
+  "homepage": "https://github.com/jesusabdullah/prompt-lite#readme",
+  "main": "./lib/prompt",
+  "maintainers": [
+    {
+      "name": "jesusabdullah",
+      "email": "josh.holbrook@gmail.com"
+    }
+  ],
+  "name": "prompt-lite",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jesusabdullah/prompt-lite.git"
+  },
+  "scripts": {
+    "test": "vows test/prompt-test.js --spec",
+    "test-all": "vows --spec"
+  },
+  "version": "0.1.1"
+}

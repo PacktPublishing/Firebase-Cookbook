@@ -1,0 +1,9 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" class="page">
+    <StackLayout>
+        <Label text="LOGIN PAGE" textWrap="true" />
+        <TextField hint="username" text="{{ user_email }}" id="tf_username" />
+        <TextField hint="password" text="{{ user_password }}" id="tf_password" />
+        <Button text="LOGIN" tap="{{ passLogin }}" class="btn btn-primary btn-active" /> 
+        <Button text="Anonymous login" tap="{{ anonLogin }}" class="btn btn-success"/> 
+    </StackLayout>
+</Page>

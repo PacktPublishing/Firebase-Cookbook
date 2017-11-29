@@ -1,0 +1,16 @@
+{
+  "name": "AdminSdk",
+  "description": "Project code for Chapter 7 of Firebase CookBook : Admin SDK",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "houssem.yahiaoui.ai@gmail.com",
+    "name": "Houssem Yahiaoui"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "firebase-admin": "^5.4.3"
+  }
+}

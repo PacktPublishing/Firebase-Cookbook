@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-plugin-firebase@^4.0.5",
+        "scope": null,
+        "escapedName": "nativescript-plugin-firebase",
+        "name": "nativescript-plugin-firebase",
+        "rawSpec": "^4.0.5",
+        "spec": ">=4.0.5 <5.0.0",
+        "type": "range"
+      },
+      "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook"
+    ]
+  ],
+  "_from": "nativescript-plugin-firebase@>=4.0.5 <5.0.0",
+  "_id": "nativescript-plugin-firebase@4.1.2",
+  "_inCache": true,
+  "_location": "/nativescript-plugin-firebase",
+  "_nodeVersion": "6.10.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-plugin-firebase-4.1.2.tgz_1507914766300_0.8401362434960902"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-plugin-firebase@^4.0.5",
+    "scope": null,
+    "escapedName": "nativescript-plugin-firebase",
+    "name": "nativescript-plugin-firebase",
+    "rawSpec": "^4.0.5",
+    "spec": ">=4.0.5 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-4.1.2.tgz",
+  "_shasum": "89be7f0605fd07d00ccfb9aca64396435718e8cf",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-plugin-firebase@^4.0.5",
+  "_where": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook",
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
+  },
+  "dependencies": {
+    "fs-extra": "~2.1.0",
+    "fs-promise": "~2.0.0",
+    "nativescript-hook": "~0.2.0",
+    "prompt-lite": "~0.1.0",
+    "xcode": "~0.9.0"
+  },
+  "description": "Fire. Base. Firebase!",
+  "devDependencies": {
+    "prompt-lite": "~0.1.0",
+    "tns-core-modules": "2.5.0",
+    "webpack": "~2.2.0",
+    "xcode": "~0.9.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "89be7f0605fd07d00ccfb9aca64396435718e8cf",
+    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-4.1.2.tgz"
+  },
+  "gitHead": "0d573deb99a86393cb2ce8b3e4e643e8d594f2bb",
+  "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
+  "keywords": [
+    "NativeScript",
+    "Firebase",
+    "Database",
+    "Authentication",
+    "Push Notifications",
+    "Notifications",
+    "Messaging",
+    "Remote Configuration",
+    "Storage",
+    "Crash Reporting",
+    "Analytics",
+    "Facebook",
+    "Google",
+    "AdMob",
+    "Invites",
+    "Dynamic Links"
+  ],
+  "license": "MIT",
+  "main": "firebase",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "nativescript-plugin-firebase",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Processing"
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "scripts/entitlements-before-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "scripts/entitlements-after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"
+  },
+  "scripts": {
+    "bundle-installer": "npm install --ignore-scripts && webpack --config scripts/webpack.config.js scripts/installer.js scripts/postinstall.js",
+    "config": "node scripts/postinstall.js config",
+    "postinstall": "node postinstall-hooks.js && node scripts/postinstall.js",
+    "prepublish": "npm run bundle-installer",
+    "preuninstall": "node preuninstall-hooks.js",
+    "setup": "node scripts/postinstall.js setup",
+    "test": "echo 'TODO implement tests :)'"
+  },
+  "typings": "index.d.ts",
+  "version": "4.1.2"
+}

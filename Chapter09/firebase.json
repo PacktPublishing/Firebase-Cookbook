@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public"
+  }
+   "hosting": {
+        //[*] Adding the redirect section
+        "redirects": [ {
+          "source" : "/books/firebasecookbook",
+          "destination" : "/awesomebook",
+          "type" : 301
+        }]
+      }
+}

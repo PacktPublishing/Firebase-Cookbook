@@ -1,0 +1,28 @@
+{
+    "name": "@types/jsonwebtoken",
+    "version": "7.2.3",
+    "description": "TypeScript definitions for jsonwebtoken",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Maxime LUCE",
+            "url": "https://github.com/SomaticIT"
+        },
+        {
+            "name": "Daniel Heim",
+            "url": "https://github.com/danielheim"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "peerDependencies": {},
+    "typesPublisherContentHash": "4acb5ee3f1964ba5dc4c32d01031cd7f945420d4b92e8240957bff214a28eb70",
+    "typeScriptVersion": "2.2"
+}

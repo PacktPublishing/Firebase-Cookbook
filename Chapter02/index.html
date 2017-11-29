@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <style>
+        .attach-doc {
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 500px;
+            max-height: 220px
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="text-center">
+        <img src="img/firebase.png">
+    </div>
+    <div class="row text-center">
+        <div class="image-upload">
+            <input id="msg" type="text" />
+            <button type="submit" id="send">Send to Firebse</button>
+        </div>
+    </div>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBdGYcHTypgGo3EFiWk8jppJtAH38aIQg0",
+      authDomain: "fir-cookbook-66f33.firebaseapp.com",
+      databaseURL: "https://fir-cookbook-66f33.firebaseio.com",
+      projectId: "fir-cookbook-66f33",
+      storageBucket: "fir-cookbook-66f33.appspot.com",
+      messagingSenderId: "242130147590"
+    };
+    firebase.initializeApp(config);
+  </script>
+    <script>
+        let somethingToPush = document.getElementById('msg');
+        let sendBtn = document.getElementById('send');
+        sendBtn.addEventListener('click', (ev) => {
+            console.log(somethingToPush.value);
+
+            var db = firebase.database();
+
+            db.ref('packtpub').push({
+                name: "Packts",
+                message: somethingToPush.value,
+                photo_url: "<link to my picture>"
+            });
+        })
+
+        var packtRef = firebase.database().ref('/packtpub');
+        packtRef.on('value', (snapshot) => {
+            console.log("value i added");
+            console.log(snapshot.val());
+          });
+
+          var adminRef = firebase.database().ref('/admins');
+                adminRef.on('value',(snapshot) => {
+                  //implement you logic here.
+                  //TODO : Define Tweet Structure.
+                       let tweet = {};
+                       // Get a key for a new Entry
+                       let newTweetKey =
+                       firebase.database().ref().child('tweets').push().key;
+                       let uid = firebase.auth().currentUser.uid;
+                       var updates = {};
+                       updates['/tweets/' + newTweetKey] = tweet;
+                       updates['/user-tweets/' + uid + '/' + newTweetKey] = tweet;
+                       firebase.database().ref().update(updates);
+
+                });
+
+    </script>
+</body>
+
+</html>

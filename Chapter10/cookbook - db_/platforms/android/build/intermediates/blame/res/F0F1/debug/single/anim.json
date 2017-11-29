@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_fade_in.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_fade_out.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/res/merged/F0F1/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/anim/abc_popup_enter.xml"
+    }
+]

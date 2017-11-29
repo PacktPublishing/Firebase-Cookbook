@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        .image-upload>input {
+            display: none;
+        }
+
+        .attach-doc {
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 500px;
+            max-height: 220px
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="text-center">
+        <img src="img/firebase.png">
+    </div>
+    <div class="row text-center">
+        <div class="image-upload">
+            <label for="file-input">
+                <span class="attach-doc">Upload to Firebase &nbsp;<i class="fa fa-upload" aria-hidden="true"></i></span>
+            </label>
+            <input id="file-input" type="file" onchange="uploadToFirebase(this.files)" />
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB3amU4g4smm77PGOX39meBm71rW2G2vK8",
+            authDomain: "fir-cookbook.firebaseapp.com",
+            databaseURL: "https://fir-cookbook.firebaseio.com",
+            projectId: "fir-cookbook",
+            storageBucket: "fir-cookbook.appspot.com",
+            messagingSenderId: "329935171550"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script>
+        let upload = document.getElementById('file-input');
+        upload.addEventListener('change', uploadToFirebase, false);
+
+        function uploadToFirebase(files) {
+            let file = files[0];
+            let fileName = file.name;
+            if (file) {
+                let rootRef = firebase.storage().ref();
+                let fileRef = rootRef.child(`images/${fileName}`);
+                fileRef.put(file)
+                    .then(() => {
+                        console.log("file uploaded with success congrats");
+                    })
+                    .catch(err => console.log(err));
+                fileRef.getDownloadURL()
+                    .then((url) => {
+                        //Getting the download url.
+                        console.log(`Download Url : ${url}`);
+                    })
+                    .catch(err => console.log(err));
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:3:2-37
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [cookbook:runtime:unspecified] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/cookbook/runtime/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.2.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.2.2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.2.2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone/11.2.2/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.2.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-invites:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-invites/11.2.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-dynamic-links/11.2.2/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:21:5-23:58
+MERGED from [:widgets-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/widgets-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:19:2-63
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:20:2-41:16
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.2.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-config:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/11.2.2/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-invites:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-invites/11.2.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-dynamic-links/11.2.2/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:29:5-20
+MERGED from [:widgets-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/widgets-release/AndroidManifest.xml:11:5-12:19
+MERGED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:11:5-22:19
+	android:label
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:24:3-35
+	android:allowBackup
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:22:3-29
+	android:icon
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:23:3-32
+	android:theme
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:25:3-34
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:21:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:27:3-39:14
+	android:label
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:29:4-49
+	android:configChanges
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:30:4-65
+	android:theme
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:31:4-44
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:28:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:33:4-87
+	android:resource
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:33:50-84
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:33:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:35:4-38:20
+action#android.intent.action.MAIN
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:36:5-57
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:36:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:37:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:40:3-57
+	android:name
+		ADDED from /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/src/main/AndroidManifest.xml:40:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/AndroidManifest.xml:23:9-47
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.2.2/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/11.2.2/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/AndroidManifest.xml:20:20-65
+service#org.nativescript.plugins.firebase.MyFirebaseMessagingService
+ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:12:18-93
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:13:13-15:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:14:17-78
+	android:name
+		ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:14:25-75
+service#org.nativescript.plugins.firebase.MyFirebaseInstanceIDService
+ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:17:9-21:19
+	android:name
+		ADDED from [:firebase-release:] /Users/macbook/Desktop/my-oss/firebase-cookbook/nativescript/cookbook/platforms/android/build/intermediates/exploded-aar/firebase-release/AndroidManifest.xml:17:18-94

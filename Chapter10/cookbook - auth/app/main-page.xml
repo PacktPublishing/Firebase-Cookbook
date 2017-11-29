@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <StackLayout>
+        <Label text="Login Page" textWrap="true" style="font-weight: bold; font-size: 18px; text-align: center; padding:20"/>
+        <TextField hint="Email" text="{{ user_email }}" />
+        <TextField hint="Password" text="{{ user_password }}" secure="true"/>
+        <Button text="LOGIN" tap="{{ passLogin }}" class="btn btn-primary" /> 
+        <StackLayout class="hr-dark"></StackLayout>
+        <Button text="Anonymous login" tap="{{ anonLogin }}" class="btn"/> 
+        <Button text="Google Sign-in" tap="{{ googleLogin }}" class="btn" style="color:red"/> 
+    </StackLayout>
+</Page>
