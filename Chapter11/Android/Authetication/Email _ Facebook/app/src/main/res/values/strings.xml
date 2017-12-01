@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Packt Firebase CookBook</string>
+    <string name="facebook_app_id">561689597335083</string>
+    <string name="fb_login_protocol_scheme">fb561689597335083</string>
+</resources>
