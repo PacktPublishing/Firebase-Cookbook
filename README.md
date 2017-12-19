@@ -31,5 +31,3 @@ However, in Chapter 11, Integrating Firebase with Android/iOS Natively, we'll st
 
 * [Learning Firebase [Video]](https://www.packtpub.com/web-development/learning-firebase-video?utm_source=github&utm_medium=repository&utm_campaign=9781784392321)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
